@@ -6,6 +6,7 @@ public class Spruce extends EverGreen {
 
     private void rot(){
         if(random< 5){
+            this.rot = true;
             reduceWith(20);
         }
     }
